@@ -14,7 +14,8 @@ from django.views import View
 from . forms import CustomUserCreationForm
 from django.shortcuts import redirect
 from django.db import transaction
-
+import json
+import requests
 from .models import Task
 
 
